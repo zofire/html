@@ -1,0 +1,62 @@
+
+.the-buton-hub {
+    --tw-gradient-to: #22c55e var(--tw-gradient-to-position) !important;
+    --tw-gradient-from: #16a34a var(--tw-gradient-from-position) !important;
+    --tw-gradient-stops: var(--tw-gradient-from), var(--tw-gradient-to) !important;
+}
+.text-wafeq-900a,
+.to-wafeq-900 {
+    --tw-gradient-to: #0D3730 var(--tw-gradient-to-position) !important;
+}
+.via-wafeq-700 {
+    --tw-gradient-to: rgba(22, 163, 74, 0) var(--tw-gradient-to-position) !important;
+    --tw-gradient-stops: var(--tw-gradient-from), #15803d var(--tw-gradient-via-position), var(--tw-gradient-to) !important;
+}
+
+.text-blue-100 {
+    --tw-text-opacity: 1 !important;
+    color: #16a34a !important;
+}
+.ring-orange-100\/20 {
+    --tw-ring-color: rgba(244,113,48,.2) !important;
+}
+.tab-fade-enter {
+  opacity: 0;
+  transform: translateY(10px);
+}
+
+.tab-fade-enter-active {
+  opacity: 1;
+  transform: translateY(0);
+  transition: opacity 300ms ease, transform 300ms ease;
+}
+
+.tab-fade-exit {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+.tab-fade-exit-active {
+  opacity: 0;
+  transform: translateY(10px);
+  transition: opacity 200ms ease, transform 200ms ease;
+}
+.active,
+.active-main {
+    border-radius: 50px;
+    padding: 7px 25px;
+}
+.active-main {
+    background: #fff;
+}
+
+
+.ring-offset-orange-100 {
+    --tw-ring-offset-color: #16a34a !important;
+}
+.ring-orange-100\/20 {
+    --tw-ring-color: rgb(22 163 74 / 7%) !important;
+}
+.NavigationMenuLink:focus, .NavigationMenuTrigger:focus {
+    --tw-ring-color: rgb(62 161 88 / 25%) !important;
+}

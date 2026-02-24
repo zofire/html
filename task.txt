@@ -1,0 +1,12 @@
+1, Menu - 
+2, Color
+3, price
+4, bangla number
+5, url change
+6, price a click korle price sections a jabe 
+7, language icon remove
+8, sub menur dorkar nei
+9, product a click korle compleate software a jabe
+10, 1st priority color change
+11, logo slider time kom besi hobe 
+12, banner logo thaka lagbe
