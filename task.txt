@@ -1,16 +1,14 @@
-1, Menu - 
-2, Color
-3, price
-4, bangla number
-5, url change
-6, price a click korle price sections a jabe 
+1, Menu  - done
+2, Color  - done
+3, price  - done
+4, bangla number  - done
+5, url change  - done
+6, price a click korle price sections a jabe  - done
 7, language icon remove  - done
 8, sub menur dorkar nei  - done
 9, product a click korle compleate software a jabe  - done
 10, 1st priority color change - done
 11, logo slider time kom besi hobe - done 
 12, banner logo thaka lagbe - done 
-
-
 
 https://html-5g55.onrender.com/

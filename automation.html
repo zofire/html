@@ -117,6 +117,7 @@
                               data-radix-collection-item=""
                             >
                               <!-- -->Products
+                               <svg width="15" height="15" viewBox="0 0 15 15" fill="none" xmlns="http://www.w3.org/2000/svg" class="CaretDown" aria-hidden="true"><path d="M4.18179 6.18181C4.35753 6.00608 4.64245 6.00608 4.81819 6.18181L7.49999 8.86362L10.1818 6.18181C10.3575 6.00608 10.6424 6.00608 10.8182 6.18181C10.9939 6.35755 10.9939 6.64247 10.8182 6.81821L7.81819 9.81821C7.73379 9.9026 7.61934 9.95001 7.49999 9.95001C7.38064 9.95001 7.26618 9.9026 7.18179 9.81821L4.18179 6.81821C4.00605 6.64247 4.00605 6.35755 4.18179 6.18181Z" fill="currentColor" fill-rule="evenodd" clip-rule="evenodd"></path></svg>
                             </a>
                <div class="absolute left-0 top-full mt-[10px] 
            opacity-0 invisible
@@ -130,41 +131,9 @@
 
     <ul>
 
-      <!-- ACCOUNTING -->
-      <a class="p-4 flex items-center gap-4 rounded-lg hover:bg-[#ECFDF5] cursor-pointer"
-         tabindex="-1" role="menuitem" href="/en-ae">
-
-        <div class="w-12 h-12">
-          <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 48 48" class="w-12 h-12">
-
-            <defs>
-              <linearGradient id="acc_a" x1="0" x2="1" y1="0" y2="1">
-                <stop stop-color="#DCFCE7"/>
-                <stop offset="1" stop-color="#BBF7D0"/>
-              </linearGradient>
-
-              <linearGradient id="acc_c" x1="0" x2="1" y1="0" y2="1">
-                <stop stop-color="#22C55E"/>
-                <stop offset="1" stop-color="#16A34A"/>
-              </linearGradient>
-            </defs>
-
-            <rect x="4" y="10" width="40" height="28" rx="4" fill="url(#acc_c)"/>
-            <circle cx="24" cy="24" r="6" fill="white"/>
-          </svg>
-        </div>
-
-        <div class="flex flex-col gap-1">
-          <h2 class="text-black-100 text-vw-m md:text-m">Accounting</h2>
-          <p class="mt-vw-1 text-vw-r text-grey-110 md:mt-1 md:text-r">
-            The fastest accounting software to streamline your business operations effortlessly
-          </p>
-        </div>
-      </a>
-
       <!-- HIGH VOLUME E-INVOICING -->
       <a class="p-4 flex items-center gap-4 rounded-lg hover:bg-[#ECFDF5] cursor-pointer"
-         tabindex="-1" role="menuitem" href="/en-ae/fta-e-invoicing">
+         tabindex="-1" role="menuitem" href="invoicing.html">
 
         <div class="w-12 h-12">
           <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 48 48" class="w-12 h-12">
@@ -198,7 +167,7 @@
 
       <!-- PAYOUT AUTOMATION -->
       <a class="p-4 flex items-center gap-4 rounded-lg hover:bg-[#ECFDF5] cursor-pointer"
-         tabindex="-1" role="menuitem" href="/en-ae/payout-automation">
+         tabindex="-1" role="menuitem" href="automation.html">
 
         <div class="w-12 h-12">
           <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 48 48" class="w-12 h-12">
@@ -278,8 +247,7 @@
                       >
                         <span
                           class="md:group-hover:-translate-x-2 md:rtl:group-hover:translate-x-2 transition-all duration-300 md:rtl:flex-row-reverse relative mx-auto flex w-fit items-center justify-center"
-                          ><span class="">Login</span
-                          ><span
+                          ><a href="/login.html">Login</a><span
                             class="hidden md:block hidden md:block opacity-0 group-hover:opacity-100 absolute right-0 rtl:right-auto rtl:left-0 rtl:rotate-180 group-hover:translate-x-6 rtl:group-hover:-translate-x-6 translate-x-3 rtl:-translate-x-3 transition-all duration-300"
                             ><span
                               class="text-tag_text-tag__teH6H text-tag_text-tag--size-inherit__SYvQV text-tag_text-tag--weight-inherit__REljt svg-maker_svgmaker__w8xAO"
@@ -4609,7 +4577,7 @@
                       </p>
                     </div>
                     <a
-                      href="https://us06web.zoom.us/webinar/register/WN_FFEzg1aLRW2QLtypJwGkDQ"
+                      href="/login.html"
                       target="_blank"
                       class="styled-button relative w-full md:w-56 h-14"
                       ><div

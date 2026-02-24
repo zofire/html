@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Login</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+</head>
+
+<body class="min-h-screen py-16 bg-gradient-to-r from-[#dcfce7] via-[#86efac] to-[#22c55e] flex items-center justify-center">
+
+  <div class="w-full max-w-[420px] text-center px-6">
+
+    <!-- Logo -->
+    <div class="flex justify-center mb-8">
+      <div class="text-white text-3xl font-bold">W</div>
+    </div>
+
+    <!-- Heading -->
+    <h1 class="text-[28px] font-semibold text-white mb-2">
+      Welcome back!
+    </h1>
+    <p class="text-green-50 text-sm mb-10">
+      Sign in to get back to your Wafeq account
+    </p>
+
+    <!-- Card -->
+    <div class="bg-white rounded-xl p-8 shadow-lg">
+
+      <!-- Form -->
+      <form class="space-y-6">
+
+        <!-- Email -->
+        <div class="text-left">
+          <label class="block text-sm text-gray-700 mb-1">
+            Email<span class="text-red-500">*</span>
+          </label>
+          <input
+            type="email"
+            placeholder="Required"
+            class="w-full h-[42px] border border-gray-300 rounded-md px-3 text-sm focus:outline-none focus:ring-2 focus:ring-[#22c55e]"
+          />
+        </div>
+
+        <!-- Password -->
+        <div class="text-left">
+          <label class="block text-sm text-gray-700 mb-1">
+            Password<span class="text-red-500">*</span>
+          </label>
+          <input
+            type="password"
+            placeholder="Required"
+            class="w-full h-[42px] border border-gray-300 rounded-md px-3 text-sm focus:outline-none focus:ring-2 focus:ring-[#22c55e]"
+          />
+        </div>
+
+        <!-- Sign In -->
+        <button
+          type="submit"
+          class="w-full h-[44px] bg-[#22c55e] hover:bg-[#16a34a] text-white text-sm font-medium rounded-md transition duration-200"
+        >
+          Sign in
+        </button>
+
+      </form>
+
+      <!-- Forgot Password -->
+      <div class="mt-6 text-center">
+        <a href="#" class="text-[#22c55e] text-sm hover:underline">
+          Forgot password?
+        </a>
+      </div>
+
+      <!-- Divider -->
+      <div class="flex items-center my-8">
+        <div class="flex-grow h-px bg-gray-300"></div>
+        <span class="px-4 text-xs text-gray-400">or</span>
+        <div class="flex-grow h-px bg-gray-300"></div>
+      </div>
+
+      <!-- Google Button -->
+      <button
+        class="w-full h-[44px] border border-gray-300 bg-white hover:bg-gray-50 text-gray-700 text-sm rounded-md flex items-center justify-center gap-3 transition duration-200"
+      >
+        <!-- Google Icon -->
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 48 48" class="w-5 h-5">
+          <path fill="#EA4335" d="M24 9.5c3.54 0 6.68 1.22 9.18 3.61l6.85-6.85C35.64 2.38 30.28 0 24 0 14.64 0 6.6 5.48 2.64 13.44l7.98 6.19C12.5 13.22 17.8 9.5 24 9.5z"/>
+          <path fill="#4285F4" d="M46.5 24.5c0-1.63-.15-3.2-.42-4.7H24v9h12.7c-.55 2.96-2.23 5.47-4.75 7.16l7.29 5.66C43.87 37.5 46.5 31.56 46.5 24.5z"/>
+          <path fill="#FBBC05" d="M10.62 28.63A14.5 14.5 0 019.5 24c0-1.62.28-3.18.78-4.63l-7.98-6.19A23.94 23.94 0 000 24c0 3.9.93 7.58 2.58 10.82l8.04-6.19z"/>
+          <path fill="#34A853" d="M24 48c6.48 0 11.92-2.14 15.9-5.83l-7.29-5.66c-2.02 1.36-4.6 2.16-8.61 2.16-6.2 0-11.5-3.72-13.38-8.94l-8.04 6.19C6.6 42.52 14.64 48 24 48z"/>
+        </svg>
+        Continue with Google
+      </button>
+
+      <!-- Create Account -->
+      <div class="mt-7 text-center">
+        <a href="#" class="text-[#22c55e] text-sm font-medium hover:underline">
+          Don't have an account? Let's create one
+        </a>
+      </div>
+
+      <!-- Terms -->
+      <div class="mt-10 text-xs text-gray-500 leading-relaxed text-center">
+        By using Wafeq, you agree to the
+        <a href="#" class="text-[#22c55e] hover:underline">Terms of Service</a>
+        and
+        <a href="#" class="text-[#22c55e] hover:underline">Privacy Policy</a>
+      </div>
+
+    </div>
+
+  </div>
+
+</body>
+</html>
