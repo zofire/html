@@ -1,4 +1,13 @@
 
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Montserrat", sans-serif;
+}
 .the-buton-hub {
     --tw-gradient-to: #22c55e var(--tw-gradient-to-position) !important;
     --tw-gradient-from: #16a34a var(--tw-gradient-from-position) !important;
@@ -59,4 +68,8 @@
 }
 .NavigationMenuLink:focus, .NavigationMenuTrigger:focus {
     --tw-ring-color: rgb(62 161 88 / 25%) !important;
+}
+.accordion_accordion__fyweJ.activesss .accordion_accordion__content__6qhiU {
+    opacity: 1;
+    margin-top: 30px;
 }

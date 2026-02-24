@@ -104,7 +104,7 @@
                           class="NavigationMenuList2 flex gap-1 rtl:flex-row-reverse xl:gap-4"
                           dir="ltr"
                         >
-                          <li>
+                          <li class="relative group ">
                             <a
                               href="/#features"
                               id="radix-:R2l34m:-trigger-radix-:R1el34m:"
@@ -116,6 +116,118 @@
                             >
                               <!-- -->Products
                             </a>
+               <div class="absolute left-0 top-full mt-[10px] 
+           opacity-0 invisible
+           group-hover:opacity-100 group-hover:visible
+           transition-all duration-200 ease-out
+           bg-white rounded-lg border border-[#22222220] shadow-lg">
+
+  <div role="menu" aria-orientation="horizontal" aria-labelledby="menu-button" tabindex="-1"
+       class="flex flex-col md:w-[412px] py-8 px-6 shadow-[0_0_1px_0_rgba(138,145,157,0.29)]"
+       dir="ltr">
+
+    <ul>
+
+      <!-- ACCOUNTING -->
+      <a class="p-4 flex items-center gap-4 rounded-lg hover:bg-[#ECFDF5] cursor-pointer"
+         tabindex="-1" role="menuitem" href="/en-ae">
+
+        <div class="w-12 h-12">
+          <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 48 48" class="w-12 h-12">
+
+            <defs>
+              <linearGradient id="acc_a" x1="0" x2="1" y1="0" y2="1">
+                <stop stop-color="#DCFCE7"/>
+                <stop offset="1" stop-color="#BBF7D0"/>
+              </linearGradient>
+
+              <linearGradient id="acc_c" x1="0" x2="1" y1="0" y2="1">
+                <stop stop-color="#22C55E"/>
+                <stop offset="1" stop-color="#16A34A"/>
+              </linearGradient>
+            </defs>
+
+            <rect x="4" y="10" width="40" height="28" rx="4" fill="url(#acc_c)"/>
+            <circle cx="24" cy="24" r="6" fill="white"/>
+          </svg>
+        </div>
+
+        <div class="flex flex-col gap-1">
+          <h2 class="text-black-100 text-vw-m md:text-m">Accounting</h2>
+          <p class="mt-vw-1 text-vw-r text-grey-110 md:mt-1 md:text-r">
+            The fastest accounting software to streamline your business operations effortlessly
+          </p>
+        </div>
+      </a>
+
+      <!-- HIGH VOLUME E-INVOICING -->
+      <a class="p-4 flex items-center gap-4 rounded-lg hover:bg-[#ECFDF5] cursor-pointer"
+         tabindex="-1" role="menuitem" href="/en-ae/fta-e-invoicing">
+
+        <div class="w-12 h-12">
+          <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 48 48" class="w-12 h-12">
+
+            <defs>
+              <linearGradient id="einvoice_a" x1="0" x2="1" y1="0" y2="1">
+                <stop stop-color="#22C55E"/>
+                <stop offset="1" stop-color="#16A34A"/>
+              </linearGradient>
+
+              <linearGradient id="einvoice_b" x1="0" x2="1" y1="0" y2="1">
+                <stop stop-color="#DCFCE7"/>
+                <stop offset="1" stop-color="#BBF7D0"/>
+              </linearGradient>
+            </defs>
+
+            <rect x="8" y="8" width="32" height="32" rx="4" fill="url(#einvoice_b)"/>
+            <rect x="14" y="16" width="20" height="2" fill="#16A34A"/>
+            <rect x="14" y="20" width="20" height="2" fill="#16A34A"/>
+            <rect x="14" y="24" width="20" height="2" fill="#16A34A"/>
+          </svg>
+        </div>
+
+        <div class="flex flex-col gap-1">
+          <h2 class="text-black-100 text-vw-m md:text-m">High volume e-Invoicing</h2>
+          <p class="mt-vw-1 text-vw-r text-grey-110 md:mt-1 md:text-r">
+            A scalable solution for high volume invoicing for startups and B2C enterprises
+          </p>
+        </div>
+      </a>
+
+      <!-- PAYOUT AUTOMATION -->
+      <a class="p-4 flex items-center gap-4 rounded-lg hover:bg-[#ECFDF5] cursor-pointer"
+         tabindex="-1" role="menuitem" href="/en-ae/payout-automation">
+
+        <div class="w-12 h-12">
+          <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 48 48" class="w-12 h-12">
+
+            <defs>
+              <linearGradient id="payout_a" x1="0" x2="1" y1="0" y2="1">
+                <stop stop-color="#22C55E"/>
+                <stop offset="1" stop-color="#16A34A"/>
+              </linearGradient>
+            </defs>
+
+            <circle cx="24" cy="24" r="14" fill="url(#payout_a)"/>
+            <path d="M18 24l4 4 8-8" stroke="white" stroke-width="3" stroke-linecap="round"/>
+          </svg>
+        </div>
+
+        <div class="flex flex-col gap-1">
+          <h2 class="text-black-100 text-vw-m md:text-m">
+            Payout automation & reconciliation
+          </h2>
+          <p class="mt-vw-1 text-vw-r text-grey-110 md:mt-1 md:text-r">
+            Efficiently and securely manage vendor payments and bank reconciliations
+          </p>
+        </div>
+      </a>
+
+    </ul>
+
+  </div>
+</div>
+
                           </li>
                           <li>
                             <a class="NavigationMenuLink" href="/#pricing"
@@ -148,9 +260,6 @@
                               <!-- -->Resources
                             </button>
                           </li>
-                          <div
-                            class="ViewportPosition rtl:!right-0 ltr:!left-0"
-                          ></div>
                         </ul>
                       </div>
                     </nav>
@@ -160,7 +269,7 @@
                   >
                     <a href="#_/" class="styled-button relative w-auto h-10">
                       <div
-                        class="group whitespace-nowrap hidden md:flex items-center justify-center rounded-md px-8 w-auto h-10 text-sm text-black-100 font-normal hover:bg-white ring-4 md:ring-transparent hover:ring-sky-100/50 ring-sky-100/50 border-2a border-transparent hover:border-black-100/50a shadow-lg md:shadow-none hover:shadow-lg shadow-blue-100/10 hover:shadow-blue-100/10 transition-all duration-300"
+                        class="group whitespace-nowrap hidden md:flex items-center justify-center rounded-md px-8 w-auto h-10 text-sm text-black-100 font-normal hover:bg-white ring-4 md:ring-transparent hover:ring-sky-100/50 ring-sky-100/50 border-2a border-transparent shadow-lg md:shadow-none hover:shadow-lg shadow-blue-100/10 hover:shadow-blue-100/10 transition-all duration-300"
                       >
                         <span
                           class="md:group-hover:-translate-x-2 md:rtl:group-hover:translate-x-2 transition-all duration-300 md:rtl:flex-row-reverse relative mx-auto flex w-fit items-center justify-center"
@@ -2302,7 +2411,7 @@
             <div class="">
               <div class="flex w-full flex-col items-center">
                 <h2
-                  class="w-fit justify-center px-vw-6 py-vw-2 md:px-5 md:py-1 mb-vw-10 md:mb-6 text-center text-vw-m md:text-m rtl:font-semibold bg-gradient-to-tr from-white via-blue-50 to-blue-200 text-black-100 font-normal tracking-vw-widest md:tracking-widest border-2a ring-4a rounded-md uppercase antialiased"
+                  class="w-fit justify-center px-vw-6 py-vw-2 md:px-5 md:py-1 mb-vw-10 md:mb-6 text-center text-vw-m md:text-m rtl:font-semibold bg-gradient-to-tr from-white via-blue-50 text-black-100 font-normal tracking-vw-widest md:tracking-widest border-2a ring-4a rounded-md uppercase antialiased"
                 >
                   Support &amp; Product Help
                 </h2>
@@ -2482,7 +2591,7 @@
                   target="_blank"
                   class="styled-button relative w-full md:w-56 h-vw-14 md:h-14"
                   ><div
-                    class="group whitespace-nowrap flex items-center justify-center rounded-lg w-full md:w-56 h-vw-14 md:h-14 text-base text-white font-normal hover:bg-blue-100/20 ring-4 ring-transparent hover:ring-blue-100/60 border-2 border-white/70 hover:border-white hover:shadow-lg hover:shadow-blue-100/50 transition-all duration-300"
+                    class="group whitespace-nowrap flex items-center justify-center rounded-lg w-full md:w-56 h-vw-14 md:h-14 text-base text-white font-normal hover:bg-green-100/20 ring-4 ring-transparent hover:ring-blue-100/60 border-2 border-white/70 hover:border-white hover:shadow-lg hover:shadow-blue-100/50 transition-all duration-300"
                   >
                     Register For Free
                   </div></a
@@ -2567,7 +2676,7 @@
                   href="tel:+97148369524"
                   class="styled-button relative w-full md:w-56 h-vw-14 md:h-14"
                   ><div
-                    class="group whitespace-nowrap flex items-center justify-center rounded-lg w-full md:w-56 h-vw-14 md:h-14 text-base text-white font-normal hover:bg-blue-100/20 ring-4 ring-transparent hover:ring-blue-100/60 border-2 border-white/70 hover:border-white hover:shadow-lg hover:shadow-blue-100/50 transition-all duration-300"
+                    class="group whitespace-nowrap flex items-center justify-center rounded-lg w-full md:w-56 h-vw-14 md:h-14 text-base text-white font-normal hover:bg-green-100/20 ring-4 ring-transparent hover:ring-blue-100/60 border-2 border-white/70 hover:border-white hover:shadow-lg hover:shadow-blue-100/50 transition-all duration-300"
                   >
                     Call +880 1855-519488
                   </div></a
@@ -2714,7 +2823,7 @@
                   target="_blank"
                   class="styled-button relative w-full md:w-56 h-vw-14 md:h-14"
                   ><div
-                    class="group whitespace-nowrap flex items-center justify-center rounded-lg w-full md:w-56 h-vw-14 md:h-14 text-base text-white font-normal hover:bg-blue-100/20 ring-4 ring-transparent hover:ring-blue-100/60 border-2 border-white/70 hover:border-white hover:shadow-lg hover:shadow-blue-100/50 transition-all duration-300"
+                    class="group whitespace-nowrap flex items-center justify-center rounded-lg w-full md:w-56 h-vw-14 md:h-14 text-base text-white font-normal hover:bg-green-100/20 ring-4 ring-transparent hover:ring-blue-100/60 border-2 border-white/70 hover:border-white hover:shadow-lg hover:shadow-blue-100/50 transition-all duration-300"
                   >
                     Help Center
                   </div></a

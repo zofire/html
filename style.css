@@ -5078,7 +5078,7 @@ body {
 
 .border-grey-80 {
     --tw-border-opacity: 1;
-    border-color: rgb(223 225 249/var(--tw-border-opacity, 1))
+    border-color: rgb(187 187 187)
 }
 
 .border-indigo-700 {
@@ -5161,7 +5161,7 @@ body {
 
 .border-b-grey-70 {
     --tw-border-opacity: 1;
-    border-bottom-color: rgb(222 224 241/var(--tw-border-opacity, 1))
+    border-bottom-color: rgb(117 119 135)
 }
 
 .border-b-slate-200 {
@@ -5277,16 +5277,16 @@ body {
     background-color: rgb(0 0 0/var(--tw-bg-opacity, 1))
 }
 
-.bg-blue-100 {
+.bg-green-100 {
     --tw-bg-opacity: 1;
-    background-color: rgb(80 94 221/var(--tw-bg-opacity, 1))
+    background-color: rgb(21 128 61)
 }
 
-.bg-blue-100\/20 {
+.bg-green-100\/20 {
     background-color: rgba(80, 94, 221, .2)
 }
 
-.bg-blue-100\/30 {
+.bg-green-100\/30 {
     background-color: rgba(80, 94, 221, .3)
 }
 
@@ -5780,7 +5780,7 @@ body {
 }
 
 .to-blue-200 {
-    --tw-gradient-to: #89d9a6 var(--tw-gradient-to-position)
+    --tw-gradient-to: #ffffff var(--tw-gradient-to-position)
 }
 
 .to-blue-300 {
@@ -8487,11 +8487,11 @@ body {
     background-color: hsl(var(--accent))
 }
 
-.hover\:bg-blue-100\/10:hover {
+.hover\:bg-green-100\/10:hover {
     background-color: rgba(80, 94, 221, .1)
 }
 
-.hover\:bg-blue-100\/20:hover {
+.hover\:bg-green-100\/20:hover {
     background-color: rgba(80, 94, 221, .2)
 }
 
@@ -8812,7 +8812,7 @@ body {
 }
 
 .hover\:ring-sky-100\/50:hover {
-    --tw-ring-color: rgb(22 163 74 / 9%)
+    --tw-ring-color: rgb(22 22 22 / 9%) !important;
 }
 
 .hover\:ring-slate-200:hover {
@@ -16054,7 +16054,7 @@ html[dir=rtl] .prose :where(ol):not(:where([class~=not-prose] *)) {
     margin-top: 2.5rem;
     position: relative;
     --tw-border-opacity: 1;
-    border-color: rgb(222 224 241/var(--tw-border-opacity, 1));
+    border-color: rgb(117 119 135);
     padding-bottom: 1rem;
     padding-top: 1rem
 }

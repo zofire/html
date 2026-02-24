@@ -178,3 +178,47 @@ class MarqSlider extends HTMLElement {
 }
 
 customElements.define("marq-slider", MarqSlider);
+
+document.addEventListener("DOMContentLoaded", function () {
+  const accordions = document.querySelectorAll(".accordion_accordion__fyweJ");
+
+  accordions.forEach((accordion) => {
+    const toggle = accordion.querySelector(
+      ".accordion_accordion__toggle__wv50_",
+    );
+    const content = accordion.querySelector(
+      ".accordion_accordion__content__6qhiU",
+    );
+    const icon = accordion.querySelector(".accordion_accordion__icon__CA4qs");
+
+    // Initial state
+    content.style.maxHeight = "0px";
+    content.style.overflow = "hidden";
+    content.style.transition = "max-height 0.3s ease";
+
+    toggle.addEventListener("click", () => {
+      const isActive = accordion.classList.contains("activesss");
+
+      // Close all
+      accordions.forEach((item) => {
+        item.classList.remove("activesss");
+        const itemContent = item.querySelector(
+          ".accordion_accordion__content__6qhiU",
+        );
+        // const itemIcon = item.querySelector(
+        //   ".accordion_accordion__icon__CA4qs",
+        // );
+
+        itemContent.style.maxHeight = "0px";
+        // itemIcon.style.transform = "rotate(0deg)";
+      });
+
+      // Open clicked if it wasn't already active
+      if (!isActive) {
+        accordion.classList.add("activesss");
+        content.style.maxHeight = content.scrollHeight + "px";
+        // icon.style.transform = "rotate(90deg)";
+      }
+    });
+  });
+});

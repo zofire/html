@@ -4,9 +4,13 @@
 4, bangla number
 5, url change
 6, price a click korle price sections a jabe 
-7, language icon remove
-8, sub menur dorkar nei
-9, product a click korle compleate software a jabe
-10, 1st priority color change
-11, logo slider time kom besi hobe 
-12, banner logo thaka lagbe
+7, language icon remove  - done
+8, sub menur dorkar nei  - done
+9, product a click korle compleate software a jabe  - done
+10, 1st priority color change - done
+11, logo slider time kom besi hobe - done 
+12, banner logo thaka lagbe - done 
+
+
+
+https://html-5g55.onrender.com/

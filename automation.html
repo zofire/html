@@ -105,7 +105,8 @@
                           class="NavigationMenuList2 flex gap-1 rtl:flex-row-reverse xl:gap-4"
                           dir="ltr"
                         >
-                          <li>
+                    
+                          <li class="relative group ">
                             <a
                               href="/#features"
                               id="radix-:R2l34m:-trigger-radix-:R1el34m:"
@@ -117,6 +118,118 @@
                             >
                               <!-- -->Products
                             </a>
+               <div class="absolute left-0 top-full mt-[10px] 
+           opacity-0 invisible
+           group-hover:opacity-100 group-hover:visible
+           transition-all duration-200 ease-out
+           bg-white rounded-lg border border-[#22222220] shadow-lg">
+
+  <div role="menu" aria-orientation="horizontal" aria-labelledby="menu-button" tabindex="-1"
+       class="flex flex-col md:w-[412px] py-8 px-6 shadow-[0_0_1px_0_rgba(138,145,157,0.29)]"
+       dir="ltr">
+
+    <ul>
+
+      <!-- ACCOUNTING -->
+      <a class="p-4 flex items-center gap-4 rounded-lg hover:bg-[#ECFDF5] cursor-pointer"
+         tabindex="-1" role="menuitem" href="/en-ae">
+
+        <div class="w-12 h-12">
+          <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 48 48" class="w-12 h-12">
+
+            <defs>
+              <linearGradient id="acc_a" x1="0" x2="1" y1="0" y2="1">
+                <stop stop-color="#DCFCE7"/>
+                <stop offset="1" stop-color="#BBF7D0"/>
+              </linearGradient>
+
+              <linearGradient id="acc_c" x1="0" x2="1" y1="0" y2="1">
+                <stop stop-color="#22C55E"/>
+                <stop offset="1" stop-color="#16A34A"/>
+              </linearGradient>
+            </defs>
+
+            <rect x="4" y="10" width="40" height="28" rx="4" fill="url(#acc_c)"/>
+            <circle cx="24" cy="24" r="6" fill="white"/>
+          </svg>
+        </div>
+
+        <div class="flex flex-col gap-1">
+          <h2 class="text-black-100 text-vw-m md:text-m">Accounting</h2>
+          <p class="mt-vw-1 text-vw-r text-grey-110 md:mt-1 md:text-r">
+            The fastest accounting software to streamline your business operations effortlessly
+          </p>
+        </div>
+      </a>
+
+      <!-- HIGH VOLUME E-INVOICING -->
+      <a class="p-4 flex items-center gap-4 rounded-lg hover:bg-[#ECFDF5] cursor-pointer"
+         tabindex="-1" role="menuitem" href="/en-ae/fta-e-invoicing">
+
+        <div class="w-12 h-12">
+          <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 48 48" class="w-12 h-12">
+
+            <defs>
+              <linearGradient id="einvoice_a" x1="0" x2="1" y1="0" y2="1">
+                <stop stop-color="#22C55E"/>
+                <stop offset="1" stop-color="#16A34A"/>
+              </linearGradient>
+
+              <linearGradient id="einvoice_b" x1="0" x2="1" y1="0" y2="1">
+                <stop stop-color="#DCFCE7"/>
+                <stop offset="1" stop-color="#BBF7D0"/>
+              </linearGradient>
+            </defs>
+
+            <rect x="8" y="8" width="32" height="32" rx="4" fill="url(#einvoice_b)"/>
+            <rect x="14" y="16" width="20" height="2" fill="#16A34A"/>
+            <rect x="14" y="20" width="20" height="2" fill="#16A34A"/>
+            <rect x="14" y="24" width="20" height="2" fill="#16A34A"/>
+          </svg>
+        </div>
+
+        <div class="flex flex-col gap-1">
+          <h2 class="text-black-100 text-vw-m md:text-m">High volume e-Invoicing</h2>
+          <p class="mt-vw-1 text-vw-r text-grey-110 md:mt-1 md:text-r">
+            A scalable solution for high volume invoicing for startups and B2C enterprises
+          </p>
+        </div>
+      </a>
+
+      <!-- PAYOUT AUTOMATION -->
+      <a class="p-4 flex items-center gap-4 rounded-lg hover:bg-[#ECFDF5] cursor-pointer"
+         tabindex="-1" role="menuitem" href="/en-ae/payout-automation">
+
+        <div class="w-12 h-12">
+          <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 48 48" class="w-12 h-12">
+
+            <defs>
+              <linearGradient id="payout_a" x1="0" x2="1" y1="0" y2="1">
+                <stop stop-color="#22C55E"/>
+                <stop offset="1" stop-color="#16A34A"/>
+              </linearGradient>
+            </defs>
+
+            <circle cx="24" cy="24" r="14" fill="url(#payout_a)"/>
+            <path d="M18 24l4 4 8-8" stroke="white" stroke-width="3" stroke-linecap="round"/>
+          </svg>
+        </div>
+
+        <div class="flex flex-col gap-1">
+          <h2 class="text-black-100 text-vw-m md:text-m">
+            Payout automation & reconciliation
+          </h2>
+          <p class="mt-vw-1 text-vw-r text-grey-110 md:mt-1 md:text-r">
+            Efficiently and securely manage vendor payments and bank reconciliations
+          </p>
+        </div>
+      </a>
+
+    </ul>
+
+  </div>
+</div>
+
                           </li>
                           <li>
                             <a class="NavigationMenuLink" href="/#pricing"
@@ -161,7 +274,7 @@
                   >
                     <a href="#_/" class="styled-button relative w-auto h-10">
                       <div
-                        class="group whitespace-nowrap hidden md:flex items-center justify-center rounded-md px-8 w-auto h-10 text-sm text-black-100 font-normal hover:bg-white ring-4 md:ring-transparent hover:ring-sky-100/50 ring-sky-100/50 border-2a border-transparent hover:border-black-100/50a shadow-lg md:shadow-none hover:shadow-lg shadow-blue-100/10 hover:shadow-blue-100/10 transition-all duration-300"
+                        class="group whitespace-nowrap hidden md:flex items-center justify-center rounded-md px-8 w-auto h-10 text-sm text-black-100 font-normal hover:bg-white ring-4 md:ring-transparent hover:ring-sky-100/50 ring-sky-100/50 border-2a border-transparent shadow-lg md:shadow-none hover:shadow-lg shadow-blue-100/10 hover:shadow-blue-100/10 transition-all duration-300"
                       >
                         <span
                           class="md:group-hover:-translate-x-2 md:rtl:group-hover:translate-x-2 transition-all duration-300 md:rtl:flex-row-reverse relative mx-auto flex w-fit items-center justify-center"
@@ -1462,7 +1575,7 @@
                 <div class="">
                   <div class="flex w-full flex-col items-center">
                     <h2
-                      class="w-fit justify-center px-5 py-1 mb-4 md:mb-6 text-center text-base leading-6 rtl:font-semibold bg-gradient-to-tr from-white via-blue-50 to-blue-200 text-black-100 font-normal tracking-vw-widest md:tracking-widest border-2a ring-4a rounded-md uppercase antialiased"
+                      class="w-fit justify-center px-5 py-1 mb-4 md:mb-6 text-center text-base leading-6 rtl:font-semibold bg-gradient-to-tr from-white via-blue-50 text-black-100 font-normal tracking-vw-widest md:tracking-widest border-2a ring-4a rounded-md uppercase antialiased"
                     >
                       Features
                     </h2>
@@ -1493,15 +1606,15 @@
                       class="h-18"
                     >
                       <path
-                        fill="url(#multiple-payments_svg__a)"
+                        fill="#fff"
                         d="M15.564 25.323a1 1 0 0 0 1.394 0L30.275 12.38a1 1 0 0 0 .012-1.422l-2.242-2.257a1 1 0 0 0-1.407-.013l-9.688 9.416a1 1 0 0 1-1.386.008l-4.215-4.001a1 1 0 0 0-1.386.008l-2.225 2.163a1 1 0 0 0 0 1.434z"
                       ></path>
                       <path
-                        fill="url(#multiple-payments_svg__b)"
+                        fill="#fff"
                         d="M15.564 47.323a1 1 0 0 0 1.394 0L30.275 34.38a1 1 0 0 0 .012-1.422l-2.242-2.257a1 1 0 0 0-1.407-.013l-9.688 9.416a1 1 0 0 1-1.386.008l-4.215-4.001a1 1 0 0 0-1.386.008l-2.225 2.163a1 1 0 0 0 0 1.434z"
                       ></path>
                       <path
-                        fill="url(#multiple-payments_svg__c)"
+                        fill="#fff"
                         d="M15.564 69.323a1 1 0 0 0 1.394 0L30.275 56.38a1 1 0 0 0 .012-1.422l-2.242-2.257a1 1 0 0 0-1.407-.013l-9.688 9.416a1 1 0 0 1-1.386.008l-4.215-4.001a1 1 0 0 0-1.386.008l-2.225 2.163a1 1 0 0 0 0 1.434z"
                       ></path>
                       <rect
@@ -1509,7 +1622,7 @@
                         height="6"
                         x="39"
                         y="12"
-                        fill="url(#multiple-payments_svg__d)"
+                        fill="#fff"
                         rx="1"
                       ></rect>
                       <rect
@@ -1517,7 +1630,7 @@
                         height="6"
                         x="39"
                         y="34"
-                        fill="url(#multiple-payments_svg__e)"
+                        fill="#fff"
                         rx="1"
                       ></rect>
                       <rect
@@ -1525,7 +1638,7 @@
                         height="6"
                         x="39"
                         y="56"
-                        fill="url(#multiple-payments_svg__f)"
+                        fill="#fff"
                         rx="1"
                       ></rect>
                       <defs>
@@ -1646,7 +1759,7 @@
                       class="h-18"
                     >
                       <mask
-                        id="approval-flow_svg__b"
+                        id="#fff"
                         width="73"
                         height="72"
                         x="0"
@@ -1658,13 +1771,13 @@
                           width="72"
                           height="72"
                           x="0.985"
-                          fill="url(#approval-flow_svg__a)"
+                          fill="#fff"
                           rx="1"
                         ></rect>
                       </mask>
-                      <g mask="url(#approval-flow_svg__b)">
+                      <g mask="url(##fff)">
                         <path
-                          fill="url(#approval-flow_svg__c)"
+                          fill="#fff"
                           d="M7.99 39.75a1 1 0 0 1-1-1v-5.5a1 1 0 0 1 1-1h27.086a1 1 0 0 0 .707-.293l16.75-16.75c.63-.63.184-1.707-.707-1.707H45.49a1 1 0 0 1-1-1V7a1 1 0 0 1 1-1h20.5a1 1 0 0 1 1 1v20.5a1 1 0 0 1-1 1h-5.5a1 1 0 0 1-1-1v-6.336c0-.89-1.077-1.337-1.707-.707l-19 19a1 1 0 0 1-.707.293zM45.49 66a1 1 0 0 1-1-1v-5.5a1 1 0 0 1 1-1h6.308c.895 0 1.34-1.085.702-1.713l-9.542-9.392a1 1 0 0 1-.005-1.42l4.012-4.012a1 1 0 0 1 1.42.005l9.392 9.542c.628.638 1.713.193 1.713-.701V44.5a1 1 0 0 1 1-1h5.5a1 1 0 0 1 1 1V65a1 1 0 0 1-1 1z"
                         ></path>
                       </g>
@@ -1842,7 +1955,7 @@
                             class="absolute top-12 lg:top-6 right-0 z-10 bg-[#F3F4F6] max-w-[280px] max-h-[75px] rounded-lg py-2 px-3"
                           >
                             <h3
-                              class="text-[#1F2BA5] text-base leading-6 font-wafeq text-center"
+                              class="text-[#222] text-base leading-6 font-wafeq text-center"
                             >
                               <span class="font-bold">Set payment limits</span>
                               for users based on their role.
@@ -1862,7 +1975,7 @@
                       class="h-18"
                     >
                       <path
-                        fill="url(#automatic-reconciliation_svg__a)"
+                        fill="#fff"
                         d="M19.073 55.276a1 1 0 0 1-1.426 0L2.36 39.746a1 1 0 0 1 0-1.404l3.604-3.661a1 1 0 0 1 1.426 0l15.287 15.53a1 1 0 0 1 0 1.404zm20.026-.098a1 1 0 0 1-1.424.003L22.393 39.745a1 1 0 0 1-.003-1.405l3.602-3.66a1 1 0 0 1 1.426 0L37.674 45.1a1 1 0 0 0 1.427 0l26.85-27.373a1 1 0 0 1 1.426-.002l3.603 3.66a1 1 0 0 1 0 1.403zm.002-20.25a1 1 0 0 1-1.426 0l-3.604-3.661a1 1 0 0 1 0-1.403l11.95-12.14a1 1 0 0 1 1.425 0l3.604 3.662a1 1 0 0 1 0 1.402z"
                       ></path>
                       <defs>
@@ -1945,7 +2058,7 @@
                       class="flex flex-col justify-center gap-2 xl:gap-4 shrink xl:order-2"
                     >
                       <div
-                        class="h-0.5 w-8 bg-blue-100 shadow-lg shadow-blue-100/30 mb-2 xl:mb-4"
+                        class="h-0.5 w-8 bg-green-100 shadow-lg shadow-blue-100/30 mb-2 xl:mb-4"
                       ></div>
                       <h2 class="text-blue-100 text-xl font-medium">
                         Payment request generation
@@ -1982,7 +2095,7 @@
                       class="flex flex-col justify-center gap-2 xl:gap-4 shrink"
                     >
                       <div
-                        class="h-0.5 w-8 bg-blue-100 shadow-lg shadow-blue-100/30 mb-2 xl:mb-4"
+                        class="h-0.5 w-8 bg-green-100 shadow-lg shadow-blue-100/30 mb-2 xl:mb-4"
                       ></div>
                       <h2 class="text-blue-100 text-xl font-medium">
                         Approval flow
@@ -2020,7 +2133,7 @@
                       class="flex flex-col justify-center gap-2 xl:gap-4 shrink xl:order-2"
                     >
                       <div
-                        class="h-0.5 w-8 bg-blue-100 shadow-lg shadow-blue-100/30 mb-2 xl:mb-4"
+                        class="h-0.5 w-8 bg-green-100 shadow-lg shadow-blue-100/30 mb-2 xl:mb-4"
                       ></div>
                       <h2 class="text-blue-100 text-xl font-medium">
                         Seamless payment release
@@ -2140,7 +2253,7 @@
                   <div class="flex flex-col gap-2">
                     <div class="flex items-center gap-4">
                       <div
-                        class="h-[3px] lg:h-0.5 bg-blue-100 shadow-lg shadow-blue-100/30 w-4 md:w-8"
+                        class="h-[3px] lg:h-0.5 bg-[green] shadow-lg shadow-blue-100/30 w-4 md:w-8"
                       ></div>
                       <h3
                         class="text-black-100 text-base md:text-xl font-medium -tracking-[0.7px] !leading-6 md:!leading-7"
@@ -2160,7 +2273,7 @@
                   <div class="flex flex-col gap-2">
                     <div class="flex items-center gap-4">
                       <div
-                        class="h-[3px] lg:h-0.5 bg-blue-100 shadow-lg shadow-blue-100/30 w-4 md:w-8"
+                        class="h-[3px] lg:h-0.5 bg-[green] shadow-lg shadow-blue-100/30 w-4 md:w-8"
                       ></div>
                       <h3
                         class="text-black-100 text-base md:text-xl font-medium -tracking-[0.7px] !leading-6 md:!leading-7"
@@ -2180,7 +2293,7 @@
                   <div class="flex flex-col gap-2">
                     <div class="flex items-center gap-4">
                       <div
-                        class="h-[3px] lg:h-0.5 bg-blue-100 shadow-lg shadow-blue-100/30 w-4 md:w-8"
+                        class="h-[3px] lg:h-0.5 bg-[green] shadow-lg shadow-blue-100/30 w-4 md:w-8"
                       ></div>
                       <h3
                         class="text-black-100 text-base md:text-xl font-medium -tracking-[0.7px] !leading-6 md:!leading-7"
@@ -2200,7 +2313,7 @@
                   <div class="flex flex-col gap-2">
                     <div class="flex items-center gap-4">
                       <div
-                        class="h-[3px] lg:h-0.5 bg-blue-100 shadow-lg shadow-blue-100/30 w-4 md:w-8"
+                        class="h-[3px] lg:h-0.5 bg-[green] shadow-lg shadow-blue-100/30 w-4 md:w-8"
                       ></div>
                       <h3
                         class="text-black-100 text-base md:text-xl font-medium -tracking-[0.7px] !leading-6 md:!leading-7"
@@ -2253,7 +2366,7 @@
                       class="flex flex-wrap gap-2 justify-between mb-[25px] md:mb-4 xl:mb-6"
                     >
                       <div
-                        class="bg-[#C5DFFE] py-1 px-5 rounded-md flex justify-center items-center"
+                        class="bg-[#fff] py-1 px-5 rounded-md flex justify-center items-center"
                       >
                         <h2
                           class="text-[#020C2E] uppercase text-base leading-6 ltr:tracking-[1.6px]"
@@ -2860,7 +2973,7 @@
                         class="flex flex-col lg:flex-row lg:items-center gap-2 lg:gap-1"
                       >
                         <div
-                          class="h-[3px] lg:h-0.5 w-4 bg-blue-100 shadow-lg shadow-blue-100/30 lg:w-6"
+                          class="h-[3px] lg:h-0.5 w-4 bg-green-100 shadow-lg shadow-blue-100/30 lg:w-6"
                         ></div>
                         <p
                           class="text-base font-light leading-6 text-[#EEF2FF]"
@@ -3904,7 +4017,7 @@
                           class="button-styled_button-styled__content__I9GIW"
                         >
                           <div
-                            class="w-full p-2 rtl:pl-4 ltr:pr-4 text-black-100 hover:text-blue-100 border-b border-b-grey-70 hover:bg-[#F7F8FF]"
+                            class="w-full p-2 rtl:pl-4 ltr:pr-4 text-black-100 hover:text-[green] border-b border-b-grey-70"
                           >
                             <div class="flex items-center justify-between">
                               <h3 class="flex-1 text-start">
@@ -3958,7 +4071,7 @@
                           class="button-styled_button-styled__content__I9GIW"
                         >
                           <div
-                            class="w-full p-2 rtl:pl-4 ltr:pr-4 text-black-100 hover:text-blue-100 border-b border-b-grey-70 hover:bg-[#F7F8FF]"
+                            class="w-full p-2 rtl:pl-4 ltr:pr-4 text-black-100 hover:text-[green] border-b border-b-grey-70"
                           >
                             <div class="flex items-center justify-between">
                               <h3 class="flex-1 text-start">
@@ -4009,7 +4122,7 @@
                           class="button-styled_button-styled__content__I9GIW"
                         >
                           <div
-                            class="w-full p-2 rtl:pl-4 ltr:pr-4 text-black-100 hover:text-blue-100 border-b border-b-grey-70 hover:bg-[#F7F8FF]"
+                            class="w-full p-2 rtl:pl-4 ltr:pr-4 text-black-100 hover:text-[green] border-b border-b-grey-70"
                           >
                             <div class="flex items-center justify-between">
                               <h3 class="flex-1 text-start">
@@ -4061,7 +4174,7 @@
                           class="button-styled_button-styled__content__I9GIW"
                         >
                           <div
-                            class="w-full p-2 rtl:pl-4 ltr:pr-4 text-black-100 hover:text-blue-100 border-b border-b-grey-70 hover:bg-[#F7F8FF]"
+                            class="w-full p-2 rtl:pl-4 ltr:pr-4 text-black-100 hover:text-[green] border-b border-b-grey-70"
                           >
                             <div class="flex items-center justify-between">
                               <h3 class="flex-1 text-start">
@@ -4115,7 +4228,7 @@
                           class="button-styled_button-styled__content__I9GIW"
                         >
                           <div
-                            class="w-full p-2 rtl:pl-4 ltr:pr-4 text-black-100 hover:text-blue-100 border-b border-b-grey-70 hover:bg-[#F7F8FF]"
+                            class="w-full p-2 rtl:pl-4 ltr:pr-4 text-black-100 hover:text-[green] border-b border-b-grey-70"
                           >
                             <div class="flex items-center justify-between">
                               <h3 class="flex-1 text-start">
@@ -4165,7 +4278,7 @@
                           class="button-styled_button-styled__content__I9GIW"
                         >
                           <div
-                            class="w-full p-2 rtl:pl-4 ltr:pr-4 text-black-100 hover:text-blue-100 border-b border-b-grey-70 hover:bg-[#F7F8FF]"
+                            class="w-full p-2 rtl:pl-4 ltr:pr-4 text-black-100 hover:text-[green] border-b border-b-grey-70"
                           >
                             <div class="flex items-center justify-between">
                               <h3 class="flex-1 text-start">
@@ -4216,7 +4329,7 @@
                           class="button-styled_button-styled__content__I9GIW"
                         >
                           <div
-                            class="w-full p-2 rtl:pl-4 ltr:pr-4 text-black-100 hover:text-blue-100 border-b border-b-grey-70 hover:bg-[#F7F8FF]"
+                            class="w-full p-2 rtl:pl-4 ltr:pr-4 text-black-100 hover:text-[green] border-b border-b-grey-70"
                           >
                             <div class="flex items-center justify-between">
                               <h3 class="flex-1 text-start">
@@ -4265,7 +4378,7 @@
                           class="button-styled_button-styled__content__I9GIW"
                         >
                           <div
-                            class="w-full p-2 rtl:pl-4 ltr:pr-4 text-black-100 hover:text-blue-100 border-b border-b-grey-70 hover:bg-[#F7F8FF]"
+                            class="w-full p-2 rtl:pl-4 ltr:pr-4 text-black-100 hover:text-[green] border-b border-b-grey-70"
                           >
                             <div class="flex items-center justify-between">
                               <h3 class="flex-1 text-start">
@@ -4324,7 +4437,7 @@
                 <div class="">
                   <div class="flex w-full flex-col items-center">
                     <h2
-                      class="w-fit justify-center px-5 py-1 mb-4 md:mb-6 text-center text-base rtl:font-semibold bg-gradient-to-tr from-white via-blue-50 to-blue-200 text-black-100 font-normal tracking-vw-widest md:tracking-widest border-2a ring-4a rounded-md uppercase antialiased"
+                      class="w-fit justify-center px-5 py-1 mb-4 md:mb-6 text-center text-base rtl:font-semibold bg-gradient-to-tr from-white via-blue-50 text-black-100 font-normal tracking-vw-widest md:tracking-widest border-2a ring-4a rounded-md uppercase antialiased"
                     >
                       Support &amp; Product Help
                     </h2>
@@ -4500,7 +4613,7 @@
                       target="_blank"
                       class="styled-button relative w-full md:w-56 h-14"
                       ><div
-                        class="group whitespace-nowrap flex items-center justify-center rounded-lg w-full md:w-56 h-14 text-base text-white font-normal hover:bg-blue-100/20 ring-4 ring-transparent hover:ring-blue-100/60 border-2 border-white/70 hover:border-white hover:shadow-lg hover:shadow-blue-100/50 transition-all duration-300"
+                        class="group whitespace-nowrap flex items-center justify-center rounded-lg w-full md:w-56 h-14 text-base text-white font-normal hover:bg-green-100/20 ring-4 ring-transparent hover:ring-blue-100/60 border-2 border-white/70 hover:border-white hover:shadow-lg hover:shadow-blue-100/50 transition-all duration-300"
                       >
                         Register For Free
                       </div></a
@@ -4581,7 +4694,7 @@
                       href="tel:+97148369524"
                       class="styled-button relative w-full md:w-56 h-vw-14 md:h-14"
                       ><div
-                        class="group whitespace-nowrap flex items-center justify-center rounded-lg w-full md:w-56 h-vw-14 md:h-14 text-base text-white font-normal hover:bg-blue-100/20 ring-4 ring-transparent hover:ring-blue-100/60 border-2 border-white/70 hover:border-white hover:shadow-lg hover:shadow-blue-100/50 transition-all duration-300"
+                        class="group whitespace-nowrap flex items-center justify-center rounded-lg w-full md:w-56 h-vw-14 md:h-14 text-base text-white font-normal hover:bg-green-100/20 ring-4 ring-transparent hover:ring-blue-100/60 border-2 border-white/70 hover:border-white hover:shadow-lg hover:shadow-blue-100/50 transition-all duration-300"
                       >
                         Call +880 1855-519488
                       </div></a
@@ -4724,7 +4837,7 @@
                       target="_blank"
                       class="styled-button relative w-full md:w-56 h-14"
                       ><div
-                        class="group whitespace-nowrap flex items-center justify-center rounded-lg w-full md:w-56 h-14 text-base text-white font-normal hover:bg-blue-100/20 ring-4 ring-transparent hover:ring-blue-100/60 border-2 border-white/70 hover:border-white hover:shadow-lg hover:shadow-blue-100/50 transition-all duration-300"
+                        class="group whitespace-nowrap flex items-center justify-center rounded-lg w-full md:w-56 h-14 text-base text-white font-normal hover:bg-green-100/20 ring-4 ring-transparent hover:ring-blue-100/60 border-2 border-white/70 hover:border-white hover:shadow-lg hover:shadow-blue-100/50 transition-all duration-300"
                       >
                         Help Center
                       </div></a
